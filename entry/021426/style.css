@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  background-color: black;
+  padding-left: 5%; 
+  padding-right: 5%;
+}
+
+h1, h2, h3, h4, a, p {
+    font-family: 'Monaspace Neon NF', monospace;
+    color: pink;
+}

@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5 {
+    font-family: fantasy;
+}
+
+body{
+    background-image: url("img/pamahelifumo_128x128.png");
+}
+
+header{
+    text-align: center;
+    background-color: #D52D00;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div {
+    background-color: #FF9A56;
+}
+
+#p1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#warning{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    text-align: center;
+}

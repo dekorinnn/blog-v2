@@ -1,0 +1,19 @@
+body{
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.sign{
+    text-align: right;
+}
+
+h1, h2, h3, h4, a, p {
+    font-family: 'Monaspace Neon NF', monospace;
+    color: pink;
+}
