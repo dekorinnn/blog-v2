@@ -4,9 +4,10 @@ const entries = [
   { title: "Some Thoughts",           href: "entry/020126/entry.html",        date: "1st of February 2026" },
   { title: "Why Would You Read This?",href: "entry/010226.html",              date: "2nd of February 2026" },
   { title: "Why?",                    href: "entry/010226-2.html",            date: "2nd of February 2026" },
-  { title: "Dear Erin",               href: "entry/021226/entry.html",            date: "2nd of February 2026" },
+  { title: "Dear Erin",               href: "entry/021226/entry.html",        date: "2nd of February 2026" },
   { title: "Retrospective?",          href: "entry/021426/entry.html",        date: "14th of February 2026"},
   { title: "Candy-Cookie",            href: "entry/041926.html",              date: "19th of April 2026"   },
+  { title: "Chocolate",               href: "entry/052526.html",              date: "25th of May 2026"     },
 ];
 
 function buildEntryTable() {
