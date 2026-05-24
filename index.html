@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Erin's Improved Blog</title>
+		<meta name="description" content="why u reading ts bro">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body>
+		
+		<header>
+			<div class="header-image"></div>
+		</header>
+		
+		<div id="container">
+
+			<div id="sidebar">
+
+				<h3>Important Stuff</h3>
+
+				<h3><b>LARP </b>ship_i_like</h3>
+				<p>
+					palmer-helios(OTP)<br>
+					digital-dober<br>
+					vodka-machan-scarlet<br>
+					opera-doto<br>
+					golshi-mcqueen<br>
+					teio-mcqueen<br>
+					may-bridget-unika<br>
+					marisa-alice<br>
+					miyagi-sendai<br>
+					kumiko-reina<br>
+					chika-ai<br>
+					mizi-sua<br>
+					me-tartaglia<br>
+				</p>
+
+				<h3><B>INFO </B>socials</h3>
+				<p>
+					Discord - digidober<br>
+					Twitter - nadekoctl<br>
+				</p>
+
+			</div>
+
+			<div id="content">
+				<h2>The concept of open sourcing your diary</h2>
+				<section id="hero">
+					<p>
+						Hi, I'm Erin and I like Helipama
+					</p>
+				</section>
+
+				<section id="about">
+					<h3>About</h3>
+					<p>This is my blog. Thank you.</p>
+				</section>
+
+				<section id="blog-entries">
+					<h3>Blog Entries</h3>
+
+					<table id="entry-table">
+						<tr>
+						<th>#</th>
+						<th>Title</th>
+						<th>Date</th>
+						</tr>
+					</table>
+				</section>
+			</div>
+
+			
+	</div>
+
+		<footer>
+			<p>&copy; " + new Date().getFullYear() + " Erin's Improved Blog</p>
+		</footer>
+		<script src="main.js"></script>
+		<script>
+			// Minimal script to set the year if JS is available
+			(function(){
+				try {
+					var footer = document.querySelector('footer p');
+					if (footer) footer.innerHTML = '© ' + new Date().getFullYear() + ' I don\'t know why I have this but sure';
+				} catch(e){}
+			})();
+		</script>
+	</body>
+</html>
