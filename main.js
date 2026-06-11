@@ -9,6 +9,7 @@ const entries = [
   { title: "Candy-Cookie",            href: "entry/041926.html",              date: "19th of April 2026"   },
   { title: "Chocolate",               href: "entry/052526.html",              date: "25th of May 2026"     },
   { title: "Spursy",                  href: "entry/052526-2.html",            date: "25th of May 2026"     },
+  { title: "Knicks in 5!!!!!",        href: "entry/060926.html",              date: "9th of June 2026"},
 ];
 
 function buildEntryTable() {
