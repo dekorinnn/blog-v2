@@ -16,6 +16,31 @@ body {
   padding-right: 5%;
 }
 
+#gaybar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+#gaybar ul li {
+  float: left;
+}
+
+#gaybar ul li a {
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#gaybar ul li a:hover {
+  background-color: hotpink;
+  color: black;
+}
+
 .header-image {
     background-image: url('asset/img/header.png');
     background-position: center;

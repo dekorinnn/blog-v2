@@ -9,7 +9,8 @@ const entries = [
   { title: "Candy-Cookie",            href: "entry/041926.html",              date: "19th of April 2026"   },
   { title: "Chocolate",               href: "entry/052526.html",              date: "25th of May 2026"     },
   { title: "Spursy",                  href: "entry/052526-2.html",            date: "25th of May 2026"     },
-  { title: "Knicks in 5!!!!!",        href: "entry/060926.html",              date: "9th of June 2026"},
+  { title: "Knicks in 5!!!!!",        href: "entry/060926.html",              date: "9th of June 2026"     },
+  { title: "Expert Academic Writers", href: "entry/061326.html",              date: "13th of June 2026"    },
 ];
 
 function buildEntryTable() {
@@ -28,4 +29,51 @@ function buildEntryTable() {
   });
 }
 
+function grindrDickPicInTheMorning(){
+  const euw = document.getElementById("gaybar");
+  euw.innerHTML = `
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a>Essay</a></li>
+    </ul>
+  `;
+}
+
+function funnyBrickhon(){
+  const gock = document.getElementById("sidebar");
+  gock.innerHTML = `
+    <h3>Important Stuff</h3>
+
+    <h3><b>LARP </b>ship_i_like</h3>
+    <p>
+      palmer-helios(OTP)<br>
+      digital-dober<br>
+          bakushin-flight<br>
+      vodka-machan-scarlet<br>
+      opera-doto<br>
+      golshi-mcqueen<br>
+      teio-mcqueen<br>
+      may-bridget-unika<br>
+      marisa-alice<br>
+      miyagi-sendai<br>
+      kumiko-reina<br>
+      chika-ai<br>
+      mizi-sua<br>
+      uika-mana<br>
+            mutsumi-nyamu<br>
+            soyo-anon<br>
+            me-tartaglia<br>
+    </p>
+
+    <h3><B>INFO </B>socials</h3>
+    <p>
+      Discord - digidober<br>
+      Twitter - nadekoctl<br>
+    </p>
+  `;
+}
+
+grindrDickPicInTheMorning();
+funnyBrickhon();
 buildEntryTable();
