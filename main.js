@@ -32,10 +32,11 @@ function buildEntryTable() {
 function grindrDickPicInTheMorning(){
   const euw = document.getElementById("gaybar");
   euw.innerHTML = `
-    <ul>
+  <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="blog.html">Blog</a></li>
       <li><a>Essay</a></li>
+      <li><a>Stream of Thoughts</a></li>
+      <li><a href="blog.html">Entry-List</a></li>
     </ul>
   `;
 }
@@ -43,13 +44,16 @@ function grindrDickPicInTheMorning(){
 function funnyBrickhon(){
   const gock = document.getElementById("sidebar");
   gock.innerHTML = `
-    <h3>Important Stuff</h3>
-
-    <h3><b>LARP </b>ship_i_like</h3>
+    <h3><b>BRUH</b> announcement </h3>
     <p>
-      palmer-helios(OTP)<br>
+    Happy pride my fellow fags, [d-slur], [the h word] and trannies <3
+    </p>
+
+    <h3><b>LARP </b>shiplist</h3>
+    <p>
+      helios-palmer(OTP)<br>
       digital-dober<br>
-          bakushin-flight<br>
+      bakushin-flight<br>
       vodka-machan-scarlet<br>
       opera-doto<br>
       golshi-mcqueen<br>
@@ -61,9 +65,9 @@ function funnyBrickhon(){
       chika-ai<br>
       mizi-sua<br>
       uika-mana<br>
-            mutsumi-nyamu<br>
-            soyo-anon<br>
-            me-tartaglia<br>
+      mutsumi-nyamu<br>
+      soyo-anon<br>
+      me-tartaglia<br>
     </p>
 
     <h3><B>INFO </B>socials</h3>
