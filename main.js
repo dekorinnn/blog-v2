@@ -33,7 +33,7 @@ function grindrDickPicInTheMorning(){
   const euw = document.getElementById("gaybar");
   euw.innerHTML = `
   <ul>
-      <li><a href="index.html"><i class="fa-brands fa-arch-linux"></i> Home</a></li>
+      <li><a href="index.html"><i class="fa-brands fa-linux"></i> Home</a></li>
       <li><a>Essay</a></li>
       <li><a>Stream of Thoughts</a></li>
       <li><a href="blog.html">Entry-List</a></li>
