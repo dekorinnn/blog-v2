@@ -33,7 +33,7 @@ function grindrDickPicInTheMorning(){
   const euw = document.getElementById("gaybar");
   euw.innerHTML = `
   <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html"><i class="fa-brands fa-arch-linux"></i> Home</a></li>
       <li><a>Essay</a></li>
       <li><a>Stream of Thoughts</a></li>
       <li><a href="blog.html">Entry-List</a></li>
@@ -46,7 +46,7 @@ function funnyBrickhon(){
   gock.innerHTML = `
     <h3><b>BRUH</b> announcement </h3>
     <p>
-    Happy pride my fellow fags, [d-slur], [the h word] and trannies <3
+    Happy pride my fellow fags and trannies <3
     </p>
 
     <h3><b>LARP </b>shiplist</h3>
@@ -72,7 +72,9 @@ function funnyBrickhon(){
 
     <h3><B>INFO </B>socials</h3>
     <p>
+      <i class="fa-brands fa-discord"></i>
       Discord - digidober<br>
+      <i class="fa-brands fa-twitter"></i>
       Twitter - nadekoctl<br>
     </p>
   `;
