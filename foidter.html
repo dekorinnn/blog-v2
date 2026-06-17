@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foid's thoughts</title>
+    <meta name="description" content="blog">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/dc6541beb0.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="asset/favicon.ico">
+    <style>
+        div.foidtwitter {
+            margin-top: 1em;
+
+            display: grid;
+            grid-template-columns: 64px 2fr 2fr;
+            grid-template-rows: 64px auto auto;
+            grid-template-areas: 
+            "pfp name name"
+            "space fweet fweet";
+            gap: 0 2em;
+            
+            justify-items: left;
+        }
+
+        div.foidtwitter #name{
+            text-align: left;
+            grid-area: name;
+        }
+
+        div.foidtwitter #pfp{
+            grid-area: pfp;
+        }
+
+        div.foidtwitter #fweet{
+            grid-area: fweet;
+        }
+
+        div.foidtwitter #pfp img{
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="gaybar"></div>
+	<header>
+        <div class="header-image"></div>
+    </header>
+    <div id="container">
+        <div id="sidebar"></div>
+        <div id="content">
+            <h3>foidtwitter</h3>
+            <div class="foidtwitter">
+                <div id="pfp">
+                    <img src="asset/img/mizimizi.jpg" alt="mizi" width="64" height="64">
+                </div>
+                <div id="name">
+                    <p><b>erin mai qyy</b>@erin-hates-herself</p>
+                </div>
+                <div id="fweet">
+                    <p>
+                        im a chud, im a chud, im a fat little chud.<br>
+                        playing league all day untill the sun goes up
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

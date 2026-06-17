@@ -34,8 +34,9 @@ function grindrDickPicInTheMorning(){
   euw.innerHTML = `
   <ul>
       <li><a href="index.html"><i class="fa-brands fa-linux"></i> Home</a></li>
-      <li><a>Essay</a></li>
-      <li><a>Stream of Thoughts</a></li>
+      <li><a href="essay.html">Essay</a></li>
+      <li><a href="foidter.html">Stream of Thoughts</a></li>
+      <li><a href="gl.html">Cubes</a></li>
       <li><a href="blog.html">Entry-List</a></li>
     </ul>
   `;
@@ -67,6 +68,10 @@ function funnyBrickhon(){
       uika-mana<br>
       mutsumi-nyamu<br>
       soyo-anon<br>
+      mizu-ena<br>
+      kanade-honami-mafuyu<br>
+      mafuyu-emu<br>
+      an-kohane<br>
       me-tartaglia<br>
     </p>
 
