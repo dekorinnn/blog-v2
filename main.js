@@ -11,6 +11,7 @@ const entries = [
   { title: "Spursy",                  href: "entry/052526-2.html",            date: "25th of May 2026"     },
   { title: "Knicks in 5!!!!!",        href: "entry/060926.html",              date: "9th of June 2026"     },
   { title: "Expert Academic Writers", href: "entry/061326.html",              date: "13th of June 2026"    },
+  { title: "Goncalo Guedes",          href: "entry/062026.html",              date: "20th of June 2026"    },
 ];
 
 function buildEntryTable() {
