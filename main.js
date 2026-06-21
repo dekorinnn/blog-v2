@@ -68,6 +68,11 @@ function funnyBrickhon(){
       uika-mana<br>
       mutsumi-nyamu<br>
       soyo-anon<br>
+      tadc-polycule<br>
+      eirin-kaguya<br>
+      kana-mafu-hona<br>
+      mafuyu-emu<br>
+      mizu-ena<br>
       me-tartaglia<br>
     </p>
 
